@@ -1,0 +1,11 @@
+.submitbtndiv{
+    text-align: right;
+}
+
+button.btn.btn-primary{
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: medium;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    border-color: #4aaaa5;
+}
