@@ -3,7 +3,9 @@
 .navbar{
     padding: 0;
     height: 4em;
+    border-bottom: 0.1em solid silver;
 }
+
 
 .navbar-light .navbar-brand {
     color: white;
@@ -19,6 +21,14 @@
     float: right;
 }
 
+.nav-link{
+    border-left: 0.1em silver solid;
+    opacity: 0.6;
+}
+
+.nav-link:first-child{
+    border-left: none;
+}
 
 /*BODY STYLING*/
 
@@ -26,11 +36,22 @@ body{
     background-image: url("http://api.thumbr.it/whitenoise-361x370.png?");
 }
 
+p{
+    margin-top: 1em;
+}
+
 .jumbotron{
     margin: 2rem;
     background-color: #e9ecef;
     border-radius: .5rem;
     border: .1em solid silver;
+    padding: 1em 1em 1em 1em;
+}
+
+.display-4{
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: xx-large;
 }
 
 #DefaultPic{
