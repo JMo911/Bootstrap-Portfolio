@@ -8,4 +8,5 @@ button.btn.btn-primary{
     font-size: medium;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
     border-color: #4aaaa5;
+    box-shadow: 1px #4aaaa5;
 }
