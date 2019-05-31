@@ -10,3 +10,21 @@ button.btn.btn-primary{
     border-color: #4aaaa5;
     box-shadow: 1px #4aaaa5;
 }
+
+.btn-primary:active{
+    box-shadow: 0 0 0 0.2rem rgba(75, 211, 211, 0.699);
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #459c98;
+    border-color: #3c8a86;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(75, 211, 211, 0.699);
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(75, 211, 211, 0.699);
+}
