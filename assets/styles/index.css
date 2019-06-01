@@ -60,3 +60,95 @@ p{
     border-radius: 8px;
     margin-left: 40px;
 }
+
+@media (min-width: 500px){
+    .navbar-light .navbar-brand {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        padding: .75em 0.25em 0.5em 0.25em;
+        font-size: x-large;
+    }
+    .collapse:not(.show) {
+        display: flex;
+        flex-grow: 1;
+        width: 100%;
+    }
+    .navbar-nav{
+            width: 100%;
+            display: -webkit-box;
+            text-align: center;
+            background-color: #e9ecef;
+            border-bottom: 2px silver solid;
+    }
+    .col-lg-12{
+        padding: 0;
+    }
+}
+
+@media (min-width: 640px) { 
+    .navbar-light .navbar-brand {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        padding: .75em 0.25em 0.5em 0.25em;
+        font-size: x-large;
+    }
+    .collapse:not(.show) {
+        display: flex;
+        flex-grow: 1;
+        width: 100%;
+    }
+    .navbar-nav{
+        width: 100%;
+        display: -webkit-box;
+        text-align: center;
+        background-color: #e9ecef;
+        border-bottom: 2px silver solid;
+    }
+    .col-lg-12{
+        padding: 0;
+    }
+}
+
+ @media (min-width: 768px) { 
+    .navbar-light .navbar-brand {
+        width: fit-content;
+        color: white;
+        background-color: #4aaaa5;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        margin-left: 3em;
+        padding: .75em 0.25em 0.5em 0.25em;
+        height: 3.25em;
+        font-size: larger;
+    }
+    .navbar-nav{
+        width: initial;
+        display: -webkit-inline-box;
+        text-align: initial;
+        background-color: initial;
+        border-bottom: initial;
+    }
+ }
+
+ @media (min-width: 980px) { 
+    .navbar-light .navbar-brand {
+        width: fit-content;
+        color: white;
+        background-color: #4aaaa5;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        margin-left: 3em;
+        padding: .75em 0.25em 0.5em 0.25em;
+        height: 3.25em;
+        font-size: larger;
+    }
+    .navbar-nav{
+        width: initial;
+        display: -webkit-inline-box;
+        text-align: initial;
+        background-color: initial;
+        border-bottom: initial;
+    }
+ }
