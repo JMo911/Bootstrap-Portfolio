@@ -21,9 +21,20 @@
     bottom: 0.6em;
 }
 
-@media (min-width: 576px){
-    .container {
-        grid-template-columns: auto;
+@media (min-width: 500px){
+    .container{
+        grid-template-columns: 100%;
+    }
+    .containerimg{
+        width: 100%;
+    }
+    img{
+        width: 100%;
+        height: auto;
+    }
+    .containerh2{
+        width: 100%;
+        font-size: 3em; 
     }
 }
 
@@ -38,11 +49,19 @@
         width: 100%;
         height: auto;
     }
+    .containerh2{
+        width: 100%;
+        font-size: 3em; 
+    }
  }
 
  @media (min-width: 768px) { 
     .container{
         grid-template-columns: auto auto;
+    }
+    .containerh2{
+        width: 100%;
+        font-size: 1.5em; 
     }
  }
 
