@@ -93,14 +93,14 @@ p{
 }
 
 @media (min-width: 640px) { 
-    .navbar-light .navbar-brand {
+    /* .navbar-light .navbar-brand {
         width: 100%;
         margin: 0;
         padding: 0;
         text-align: center;
         padding: .75em 0.25em 0.5em 0.25em;
         font-size: x-large;
-    }
+    } */
     .collapse:not(.show) {
         display: flex;
         flex-grow: 1;
@@ -113,9 +113,7 @@ p{
         background-color: #e9ecef;
         border-bottom: 2px silver solid;
     }
-    .col-lg-12{
-        padding: 0;
-    }
+
     .navbar-nav .nav-link {
         width: fit-content;
         float: left;
